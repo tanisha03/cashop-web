@@ -44,7 +44,7 @@ const Chart = ({data}) => {
 
   return(
   <>
-    <h2 className='title'>{data.header}</h2>
+    <center className='title'>{data.header}</center>
     { data.type === 'bar' &&  <Bar data={chartData} options={options} />}
     { data.type === 'pie' &&  <Pie data={chartData} options={options} />}
   </>

@@ -32,7 +32,7 @@ const Category = () => {
 
   return(
   <>
-    <div style={{width: "50%", height:"50%"}}>
+    <div style={{width: "25%", height:"25%"}}>
         <Chart data={salesData}/>
     </div>
   </>

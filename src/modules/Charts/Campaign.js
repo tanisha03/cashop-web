@@ -32,7 +32,7 @@ const SalesChart = () => {
 
   return(
   <>
-    <div style={{width: "50%", height:"50%"}}>
+    <div style={{width: "80%", height:"80%"}}>
         <Chart data={salesData}/>
     </div>
   </>

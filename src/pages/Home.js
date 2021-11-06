@@ -6,17 +6,11 @@ import NearbuySales from '../modules/Charts/NearbuySales'
 
 export default function Home() {
   return (
-    <div>
-      <div>
+    <div id="chartGrid">
         <Sales/>
-      </div>
-      <div>
         <CategorySales/>
-      </div>
-      <div>
         <Campaign/>
-      </div>
-      <NearbuySales/>
+        <NearbuySales/>
     </div>
   )
 }

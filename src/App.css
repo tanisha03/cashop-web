@@ -1,0 +1,18 @@
+#chartGrid {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#chartGrid div {
+    margin: 5%;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+#nearbuy-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
