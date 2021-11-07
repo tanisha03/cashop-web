@@ -62,10 +62,10 @@ export default function Campaigns() {
 
     return (
         <div className='container'>
+            <Button variant="contained" onClick={handleClickOpen} style={{float: 'right'}}>New campaign</Button>
             <h2>
                 My campaigns : {campaignsData.length}
             </h2>
-            <Button variant="contained" onClick={handleClickOpen}>New campaign</Button>
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>Create an campaign</DialogTitle>
                 <DialogContent>

@@ -35,3 +35,12 @@
     padding: 16px;
     margin: 16px 0;
 }
+
+.tag {
+    background-color: #222;
+    color: white;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 0 8px;
+    font-size: 0.7rem;
+}

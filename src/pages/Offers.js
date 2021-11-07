@@ -67,10 +67,10 @@ export default function Offers() {
 
     return (
         <div className='container'>
+            <Button variant="contained" onClick={handleClickOpen} style={{float: 'right'}}>New Offer</Button>
             <h2>
                 My offers : {offersData.length}
             </h2>
-            <Button variant="contained" onClick={handleClickOpen}>New Offer</Button>
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>Create an offer</DialogTitle>
                 <DialogContent>
