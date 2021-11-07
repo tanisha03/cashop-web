@@ -1,5 +1,8 @@
-#chartGrid {
+.container {
     padding: 2%;
+}
+
+#chartGrid {
     display: flex;
     flex-wrap: wrap;
 }
@@ -15,4 +18,20 @@
 #nearbuy-grid {
     display: flex;
     flex-wrap: wrap;
+}
+
+#nav-links {
+    list-style: none;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.offersTile {
+    background-color: #eee;
+    padding: 16px;
+    margin: 16px 0;
 }
