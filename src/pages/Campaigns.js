@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react';
 import CampaignsTile from '../components/CampaignsTile';
 import axios from 'axios';
 import {API_CONSTANTS} from '../config/API';
-import {getFormattedDate} from '../config/util'
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
