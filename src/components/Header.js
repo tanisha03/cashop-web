@@ -19,6 +19,7 @@ export default function Header() {
             <ul id="nav-links">
               <Link to='/offers'>Offers</Link>
               <Link to='/campaigns'>Campaigns</Link>
+              <Link to='/transactions'>Transactions</Link>
             </ul>
            {/* )}  */}
         </Toolbar>
