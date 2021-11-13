@@ -22,7 +22,7 @@ export default function Campaigns() {
     const [newcampaign, setNewcampaign] = useState({
         campaignName: "",
         campaignMessage: "",
-        campaignBannerUrl: "https://res.cloudinary.com/practicaldev/image/fetch/s--ZcoG81Bn--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/m1f4s9lm21thr7cpwzwq.png",
+        campaignBannerUrl: "https://businessfirstfamily.com/wp-content/uploads/2017/04/sale-banners-tips-business-owners.jpg",
         targetCategory: "HOMEUSE",
     });
     const [loading, setLoading] = useState(false);
